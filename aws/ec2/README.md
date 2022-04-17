@@ -11,4 +11,7 @@ the EC2 VM and uses ${terraform.workspace} variable to set their Names/IDs.
 terraform workspace list
 terraform workspace new staging
 terraform apply --auto-approve
+terraform state list
+terraform workspace select default
+terraform destroy
 ```
